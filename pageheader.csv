@@ -1,0 +1,7 @@
+salesno,detailno,customercd,itemcd,itemname,price,unit
+101,1,2,1,Apple,100,2
+101,2,2,2,Orange,120,3
+101,3,2,3,Pear,150,2
+102,1,2,1,Apple,100,2
+102,2,2,2,Orange,120,3
+102,3,2,3,Pear,150,2
