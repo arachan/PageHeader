@@ -10,7 +10,7 @@ Pageヘッダーに合計が全ての合計になる
 - DataSource pagehaeder.csv
 - PageHeaderSum.rdlx
 
-同じCustomerCDで別の売上伝票noのデータが一緒に入ったcsvファイルがある。
+同じCustomerCDで別のSalesNoのデータが一緒に入ったcsvファイルがある。
 
 SalesNo毎にページングして出力はできている。
 
