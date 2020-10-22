@@ -1,0 +1,5 @@
+Sample\RDL\Reports\Gallery\Reports\Pagereport\Other
+
+Estimate.rdlx
+PurchaseReport.rdlx
+ChainStoreUniformSlip.rdlx

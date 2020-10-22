@@ -13,12 +13,12 @@
 									<RepeatOnNewPage>true</RepeatOnNewPage>
 									<TableRows>
 										<TableRow>
-											<Height>0.866667cm</Height>
+											<Height>0.6cm</Height>
 											<TableCells>
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox1">
-															<Value>itemcd</Value>
+															<Value>customer</Value>
 															<Style>
 																<FontFamily>Arial</FontFamily>
 																<FontSize>10pt</FontSize>
@@ -28,7 +28,7 @@
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
-																<TextAlign>Center</TextAlign>
+																<TextAlign>Right</TextAlign>
 																<BorderStyle>
 																	<Default>Solid</Default>
 																</BorderStyle>
@@ -39,90 +39,6 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox2">
-															<Value>itemname</Value>
-															<Style>
-																<FontFamily>Arial</FontFamily>
-																<FontSize>10pt</FontSize>
-																<FontStyle>Normal</FontStyle>
-																<FontWeight>700</FontWeight>
-																<PaddingBottom>2pt</PaddingBottom>
-																<PaddingLeft>2pt</PaddingLeft>
-																<PaddingRight>2pt</PaddingRight>
-																<PaddingTop>2pt</PaddingTop>
-																<TextAlign>Center</TextAlign>
-																<BorderStyle>
-																	<Default>Solid</Default>
-																</BorderStyle>
-															</Style>
-														</Textbox>
-													</ReportItems>
-												</TableCell>
-												<TableCell>
-													<ReportItems>
-														<Textbox Name="TextBox3">
-															<Value>price</Value>
-															<Style>
-																<FontFamily>Arial</FontFamily>
-																<FontSize>10pt</FontSize>
-																<FontStyle>Normal</FontStyle>
-																<FontWeight>700</FontWeight>
-																<PaddingBottom>2pt</PaddingBottom>
-																<PaddingLeft>2pt</PaddingLeft>
-																<PaddingRight>2pt</PaddingRight>
-																<PaddingTop>2pt</PaddingTop>
-																<TextAlign>Center</TextAlign>
-																<BorderStyle>
-																	<Default>Solid</Default>
-																</BorderStyle>
-															</Style>
-														</Textbox>
-													</ReportItems>
-												</TableCell>
-												<TableCell>
-													<ReportItems>
-														<Textbox Name="TextBox10">
-															<Value>unit</Value>
-															<Style>
-																<FontFamily>Arial</FontFamily>
-																<FontSize>10pt</FontSize>
-																<FontStyle>Normal</FontStyle>
-																<FontWeight>700</FontWeight>
-																<PaddingBottom>2pt</PaddingBottom>
-																<PaddingLeft>2pt</PaddingLeft>
-																<PaddingRight>2pt</PaddingRight>
-																<PaddingTop>2pt</PaddingTop>
-																<TextAlign>Center</TextAlign>
-																<BorderStyle>
-																	<Default>Solid</Default>
-																</BorderStyle>
-															</Style>
-														</Textbox>
-													</ReportItems>
-												</TableCell>
-												<TableCell>
-													<ReportItems>
-														<Textbox Name="TextBox13">
-															<Value>amount</Value>
-															<Style>
-																<FontFamily>Arial</FontFamily>
-																<FontSize>10pt</FontSize>
-																<FontStyle>Normal</FontStyle>
-																<FontWeight>700</FontWeight>
-																<PaddingBottom>2pt</PaddingBottom>
-																<PaddingLeft>2pt</PaddingLeft>
-																<PaddingRight>2pt</PaddingRight>
-																<PaddingTop>2pt</PaddingTop>
-																<TextAlign>Center</TextAlign>
-																<BorderStyle>
-																	<Default>Solid</Default>
-																</BorderStyle>
-															</Style>
-														</Textbox>
-													</ReportItems>
-												</TableCell>
-												<TableCell>
-													<ReportItems>
-														<Textbox Name="TextBox19">
 															<Value>salesno</Value>
 															<Style>
 																<FontFamily>Arial</FontFamily>
@@ -143,8 +59,8 @@
 												</TableCell>
 												<TableCell>
 													<ReportItems>
-														<Textbox Name="TextBox22">
-															<Value>detailno</Value>
+														<Textbox Name="TextBox3">
+															<Value>no</Value>
 															<Style>
 																<FontFamily>Arial</FontFamily>
 																<FontSize>10pt</FontSize>
@@ -155,6 +71,111 @@
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
 																<TextAlign>Right</TextAlign>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox10">
+															<Value>itemcd</Value>
+															<Style>
+																<FontFamily>Arial</FontFamily>
+																<FontSize>10pt</FontSize>
+																<FontStyle>Normal</FontStyle>
+																<FontWeight>700</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox13">
+															<Value>itemname</Value>
+															<Style>
+																<FontFamily>Arial</FontFamily>
+																<FontSize>10pt</FontSize>
+																<FontStyle>Normal</FontStyle>
+																<FontWeight>700</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox19">
+															<Value>price</Value>
+															<Style>
+																<FontFamily>Arial</FontFamily>
+																<FontSize>10pt</FontSize>
+																<FontStyle>Normal</FontStyle>
+																<FontWeight>700</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox22">
+															<Value>unit</Value>
+															<Style>
+																<FontFamily>Arial</FontFamily>
+																<FontSize>10pt</FontSize>
+																<FontStyle>Normal</FontStyle>
+																<FontWeight>700</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox35">
+															<Value>amount</Value>
+															<Style>
+																<FontFamily>Arial</FontFamily>
+																<FontSize>10pt</FontSize>
+																<FontStyle>Normal</FontStyle>
+																<FontWeight>700</FontWeight>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
 																<BorderStyle>
 																	<Default>Solid</Default>
 																</BorderStyle>
@@ -183,12 +204,12 @@
 									</Sorting>
 									<TableRows>
 										<TableRow>
-											<Height>0.866667cm</Height>
+											<Height>0.864034cm</Height>
 											<TableCells>
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox4">
-															<Value>=Fields!itemcd.Value</Value>
+															<Value>=Fields!customercd.Value</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -205,12 +226,13 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox5">
-															<Value>=Fields!itemname.Value</Value>
+															<Value>=Fields!salesno.Value</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
 																<PaddingRight>2pt</PaddingRight>
 																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
 																<BorderStyle>
 																	<Default>Solid</Default>
 																</BorderStyle>
@@ -221,7 +243,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox6">
-															<Value>=Fields!price.Value</Value>
+															<Value>=Fields!detailno.Value</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -238,7 +260,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox11">
-															<Value>=Fields!unit.Value</Value>
+															<Value>=Fields!itemcd.Value</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -255,7 +277,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox14">
-															<Value>=Fields!price.Value*Fields!unit.Value</Value>
+															<Value>=Fields!itemname.Value</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -271,7 +293,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox20">
-															<Value>=Fields!salesno.Value</Value>
+															<Value>=Fields!price.Value</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -302,6 +324,23 @@
 														</Textbox>
 													</ReportItems>
 												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox37">
+															<Value>=Fields!price.Value*Fields!unit.Value</Value>
+															<Style>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
 											</TableCells>
 										</TableRow>
 									</TableRows>
@@ -310,7 +349,7 @@
 									<RepeatOnNewPage>true</RepeatOnNewPage>
 									<TableRows>
 										<TableRow>
-											<Height>0.866667cm</Height>
+											<Height>0.864034cm</Height>
 											<TableCells>
 												<TableCell>
 													<ReportItems>
@@ -328,7 +367,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox8">
-															<Value />
+															<Value>=Sum(Fields!price.Value*Fields!unit.Value,"salesno")</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -354,7 +393,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox12">
-															<Value>Total</Value>
+															<Value />
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -367,7 +406,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox15">
-															<Value>=SUM(Fields!price.Value*Fields!unit.Value</Value>
+															<Value>=CumulativeTotal(Fields!salesno.Value, Count)</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -380,7 +419,7 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox21">
-															<Value />
+															<Value>=SUM(ReportItems!TextBox14.Value)</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -393,7 +432,20 @@
 												<TableCell>
 													<ReportItems>
 														<Textbox Name="TextBox24">
-															<Value />
+															<Value>Total</Value>
+															<Style>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+															</Style>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox38">
+															<Value>=SUM(Fields!price.Value*Fields!unit.Value)</Value>
 															<Style>
 																<PaddingBottom>2pt</PaddingBottom>
 																<PaddingLeft>2pt</PaddingLeft>
@@ -407,8 +459,7 @@
 										</TableRow>
 									</TableRows>
 								</Footer>
-								<Height>2.6cm</Height>
-								<Left>0.2cm</Left>
+								<Height>3.085966cm</Height>
 								<dd:NewSection xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">true</dd:NewSection>
 								<dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">5.6cm</dd:FixedHeight>
 								<dd:FixedWidth xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">0cm</dd:FixedWidth>
@@ -416,30 +467,148 @@
 								<Style />
 								<TableColumns>
 									<TableColumn>
-										<Width>1.733706cm</Width>
+										<Width>1.8cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>2.311608cm</Width>
+										<Width>1.980008cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>1.549098cm</Width>
+										<Width>1cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>1.541072cm</Width>
+										<Width>1.4cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>2.888172cm</Width>
+										<Width>2cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>2.888172cm</Width>
+										<Width>2.473864cm</Width>
 									</TableColumn>
 									<TableColumn>
-										<Width>2.888172cm</Width>
+										<Width>2.473864cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>2.473864cm</Width>
 									</TableColumn>
 								</TableColumns>
 								<TableGroups>
 									<TableGroup>
-										<Grouping Name="Table1_Group1">
+										<Header>
+											<TableRows>
+												<TableRow>
+													<Height>0.757898cm</Height>
+													<TableCells>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox26">
+																	<Value>=Fields!customercd.Value</Value>
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																		<TextAlign>Right</TextAlign>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox27">
+																	<Value>=Fields!salesno.Value</Value>
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																		<TextAlign>Right</TextAlign>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox28">
+																	<Value />
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox29">
+																	<Value />
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox30">
+																	<Value />
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox31">
+																	<Value />
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox32">
+																	<Value />
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+														<TableCell>
+															<ReportItems>
+																<Textbox Name="TextBox36">
+																	<Value />
+																	<Style>
+																		<PaddingBottom>2pt</PaddingBottom>
+																		<PaddingLeft>2pt</PaddingLeft>
+																		<PaddingRight>2pt</PaddingRight>
+																		<PaddingTop>2pt</PaddingTop>
+																	</Style>
+																</Textbox>
+															</ReportItems>
+														</TableCell>
+													</TableCells>
+												</TableRow>
+											</TableRows>
+										</Header>
+										<Grouping Name="salesno">
 											<GroupExpressions>
 												<GroupExpression>=Fields!customercd.Value</GroupExpression>
 												<GroupExpression>=Fields!salesno.Value</GroupExpression>
@@ -449,7 +618,7 @@
 									</TableGroup>
 								</TableGroups>
 								<Top>5.2cm</Top>
-								<Width>15.8cm</Width>
+								<Width>15.6016cm</Width>
 								<ZIndex>1</ZIndex>
 							</Table>
 							<Textbox Name="TextBox16">
@@ -485,19 +654,57 @@
 							</Textbox>
 							<Textbox Name="TextBox18">
 								<DataElementName>TextBox17</DataElementName>
-								<Height>2.3171cm</Height>
-								<Left>9cm</Left>
+								<Height>2.1669cm</Height>
+								<Left>8.6cm</Left>
 								<Value>本来なら860と出力されるはず。
 
-実際は2つのデータの合計が出力されている。</Value>
+実際は2つのデータの合計が出力されている。
+
+2200</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+									<TextAlign>Right</TextAlign>
+								</Style>
+								<Top>11.03312cm</Top>
+								<Width>7.004cm</Width>
+								<ZIndex>3</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox25">
+								<DataElementName>TextBox17</DataElementName>
+								<Height>1.0048cm</Height>
+								<Left>11.69458cm</Left>
+								<Value>=SUM(ReportItems!TextBox37.Value)</Value>
 								<Style>
 									<PaddingBottom>2pt</PaddingBottom>
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
 								</Style>
-								<Top>11.6cm</Top>
-								<Width>5.1cm</Width>
+								<Top>15.39875cm</Top>
+								<Width>4cm</Width>
+								<ZIndex>3</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox39">
+								<DataElementName>TextBox17</DataElementName>
+								<Height>2.4cm</Height>
+								<Left>7.805208cm</Left>
+								<Value>ページ毎の合計は出ているが、
+salesno 1は2ページにわたっている。
+1ページ目は非表示。
+salesno 101の最後のページ、
+つまり2ページ目に合計 1160 と表示してほしい
+</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>16.45708cm</Top>
+								<Width>7.904cm</Width>
 								<ZIndex>3</ZIndex>
 							</Textbox>
 						</ReportItems>
